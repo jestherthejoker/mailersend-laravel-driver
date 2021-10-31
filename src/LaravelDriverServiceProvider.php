@@ -1,6 +1,6 @@
 <?php
 
-namespace MailerSend\LaravelDriver;
+namespace Jestherthejoker\LaravelDriver;
 
 use Illuminate\Mail\MailManager;
 use Illuminate\Support\Arr;
