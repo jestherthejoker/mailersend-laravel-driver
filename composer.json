@@ -1,6 +1,6 @@
 {
-    "name": "mailersend/laravel-driver",
-    "description": "MailerSend Laravel Driver",
+    "name": "mailersendalt/laravel-driver",
+    "description": "MailerSend Laravel Driver Custom",
     "keywords": [
         "MailerSend",
         "mailersend",
@@ -32,12 +32,12 @@
     },
     "autoload": {
         "psr-4": {
-            "MailerSend\\LaravelDriver\\": "src"
+            "MailerSendAlt\\LaravelDriver\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "MailerSend\\LaravelDriver\\Tests\\": "tests"
+            "MailerSendAlt\\LaravelDriver\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -49,10 +49,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "MailerSend\\LaravelDriver\\LaravelDriverServiceProvider"
+                "MailerSendAlt\\LaravelDriver\\LaravelDriverServiceProvider"
             ],
             "aliases": {
-                "LaravelDriver": "MailerSend\\LaravelDriver\\LaravelDriverFacade"
+                "LaravelDriverAlt": "MailerSendAlt\\LaravelDriver\\LaravelDriverFacade"
             }
         }
     }
